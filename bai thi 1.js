@@ -36,7 +36,7 @@
 
 
 
-        const buttons = document.querySelectorAll('.bua');
+        const buttons = document.querySelectorAll('.inner-desc');
 
         // Xử lý sự kiện khi nhấp vào các nút
         buttons.forEach(button => {
@@ -88,28 +88,28 @@
         const breakfastItems = [
             { name:'Fresh Chicken Salad', price: '20k', imgSrc: '648400de6f089b0dadcba2bb19d4c7df.png' },
             { name: 'Fruit Salad', price: '15k', imgSrc: '464948be3c6fc0d22c67deec92d67904.png' },
-            { name: 'Dollma Pire', price: '10k', imgSrc: 'assets/images/tab-item-05.png' },
-            { name: 'Orange Juice', price: '10k', imgSrc: 'assets/images/tab-item-02.png' },
-            { name: 'Eggs Omelette', price: '10k', imgSrc: 'assets/images/tab-item-04.png' },
-            { name: 'Omelette & Cheese', price: '15k', imgSrc: 'assets/images/tab-item-06.png' },
+            { name: 'Dollma Pire', price: '10k', imgSrc: '230a93ea5b4b0c0ad2927187f919ffdc (1).png' },
+            { name: 'Orange Juice', price: '10k', imgSrc: '164d4befb07ba021c6ed1c686c4371a2 (1).png' },
+            { name: 'Eggs Omelette', price: '10k', imgSrc: '389dda70cd21dc9afa6ac1425c26b717.png' },
+            { name: 'Omelette & Cheese', price: '15k', imgSrc: '0e1e19c91444f722620fcb92838156ce (1).png' },
         ];
 
         const lunchItems = [
-            { name: 'Omelette & Cheese', price: '15k', imgSrc: 'assets/images/tab-item-06.png' },
-            { name: 'Omelette & Cheese', price: '15k', imgSrc: 'assets/images/tab-item-06.png' },
-            { name: 'Omelette & Cheese', price: '15k', imgSrc: 'assets/images/tab-item-06.png' },
-            { name: 'Omelette & Cheese', price: '15k', imgSrc: 'assets/images/tab-item-06.png' },
-            { name: 'Omelette & Cheese', price: '15k', imgSrc: 'assets/images/tab-item-06.png' },
-            { name: 'Omelette & Cheese', price: '15k', imgSrc: 'assets/images/tab-item-06.png' },
+            { name:'Fresh Chicken Salad', price: '20k', imgSrc: '648400de6f089b0dadcba2bb19d4c7df.png' },
+            { name: 'Fruit Salad', price: '15k', imgSrc: '464948be3c6fc0d22c67deec92d67904.png' },
+            { name: 'Orange Juice', price: '10k', imgSrc: '164d4befb07ba021c6ed1c686c4371a2 (1).png' },
+            { name: 'Dollma Pire', price: '10k', imgSrc: '230a93ea5b4b0c0ad2927187f919ffdc (1).png' },
+            { name: 'Omelette & Cheese', price: '15k', imgSrc: '0e1e19c91444f722620fcb92838156ce (1).png' },
+            { name: 'Omelette & Cheese', price: '15k', imgSrc: '0e1e19c91444f722620fcb92838156ce (1).png' },
         ];
 
         const dinnerItems = [
-            { name: 'Fruit Salad', price: '15k', imgSrc: 'assets/images/tab-item-03.png' },
-            { name: 'Fruit Salad', price: '15k', imgSrc: 'assets/images/tab-item-03.png' },
-            { name: 'Fruit Salad', price: '15k', imgSrc: 'assets/images/tab-item-03.png' },
-            { name: 'Fruit Salad', price: '15k', imgSrc: 'assets/images/tab-item-03.png' },
-            { name: 'Fruit Salad', price: '15k', imgSrc: 'assets/images/tab-item-03.png' },
-            { name: 'Fruit Salad', price: '15k', imgSrc: 'assets/images/tab-item-03.png' },
+            { name: 'Fruit Salad', price: '15k', imgSrc: '464948be3c6fc0d22c67deec92d67904.png' },
+            { name: 'Omelette & Cheese', price: '15k', imgSrc: '0e1e19c91444f722620fcb92838156ce (1).png' },
+            { name: 'Orange Juice', price: '10k', imgSrc: '164d4befb07ba021c6ed1c686c4371a2 (1).png' },
+            { name:'Fresh Chicken Salad', price: '20k', imgSrc: '648400de6f089b0dadcba2bb19d4c7df.png' },
+            { name: 'Eggs Omelette', price: '10k', imgSrc: '389dda70cd21dc9afa6ac1425c26b717.png' },
+            { name: 'Dollma Pire', price: '10k', imgSrc: '230a93ea5b4b0c0ad2927187f919ffdc (1).png' },
         ];
 
         // Hiển thị danh sách ban đầu (Breakfast)
@@ -127,11 +127,11 @@
 
             items.forEach(item => {
                 const li = document.createElement("div");
-                li.className = "list";
+                li.className = "inner-sub-item";
                 li.innerHTML = `
-                    <div class="Heading_6">${item.price}</div>
-                    <div class="Heading_4">${item.name}</div>
-                    <div class="tab-item">
+                    <div class="inner-box">${item.price}</div>
+                    <div class="inner-sub-content">${item.name}</div>
+                    <div class="inner-tab-item">
                         <img src="${item.imgSrc}" class="food-image" alt="${item.name}">
                     </div>
                 `;
