@@ -1,5 +1,4 @@
 /* header */
-/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
 .header {
     box-shadow: 0px 0px 10px 0px #00000026;
     padding: 10px 10px;
@@ -223,6 +222,7 @@ a.reser {
     font-weight: 700;
     color: #FFFFFF;
 }
+/* end section-three */
 .section-four{
     width: 1503.2px;
     height: 97.6px;
@@ -567,6 +567,10 @@ a.reser {
 .section-seven .inner-wrap .inner-content .inner-title span{
     color: #007BFF;
 }
+.section-seven .inner-wrap .inner-social .inner-item:hover {
+    filter: grayscale(100%);
+}
+
 
 
 
