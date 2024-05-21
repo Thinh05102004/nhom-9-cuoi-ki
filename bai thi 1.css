@@ -206,6 +206,7 @@ a.reser {
 }
 .section-three .inner-item{
     position: relative;
+    overflow: hidden;
 }
 .section-three .inner-desc{
     position: absolute;
@@ -221,6 +222,26 @@ a.reser {
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
+}
+.section-three .inner-item:hover{
+    transform: scale(0.9);
+    transition: 1s;
+    cursor: pointer;
+}
+.section-three .inner-item:hover .inner-sub-content{
+    height: 220px;
+    transition: 1s;
+}
+.section-three .inner-item:hover p{
+    transform: translateY(0);
+    transition: 1s;
+    bottom: 130px;
+}
+.section-three .inner-item .inner-sub-content p{
+    position: absolute;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 1s;
 }
 /* end section-three */
 .section-four{
