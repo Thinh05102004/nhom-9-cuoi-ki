@@ -393,7 +393,7 @@ a.reser {
 .section-five .inner-content .inner-list .inner-item{
     width: 255px;
     height: 160px;
-    border-radius: 5px 0px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
     background: #FFFFFF;
     margin-left: 142px;
     margin-right: -89px;
@@ -423,11 +423,8 @@ a.reser {
     color: #2A2A2A;
 }
 .section-five .inner-content .inner-list .inner-item .inner-img img{
-    width: 18.86px;
-    height: 18.86px;
-    background: #FFFFFF;
-    border: 2px none;
-    position: absolute;
+    width: 70px;
+    height: 70px;
     top: 25px;
     left: 25px;
 }
