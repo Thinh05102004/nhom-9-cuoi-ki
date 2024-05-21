@@ -208,20 +208,22 @@ a.reser {
     position: relative;
     overflow: hidden;
 }
+
 .section-three .inner-desc{
     position: absolute;
     top: 0px;
 }
 .section-three .inner-item .inner-sub-content{
     width: 284px;
-    height: 67px;
+    height: 70px;
     background: #FB5849;
     position: absolute;
-    button:0;
+    bottom: 0;
     font-family: Poppins;
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
+    text-align: center;
 }
 .section-three .inner-item:hover{
     transform: scale(0.9);
@@ -230,7 +232,7 @@ a.reser {
 }
 .section-three .inner-item:hover .inner-sub-content{
     height: 220px;
-    transition: 1s;
+    transition: 1s;    
 }
 .section-three .inner-item:hover p{
     transform: translateY(0);
@@ -283,6 +285,24 @@ a.reser {
 }
 .section-four .inner-item .inner-sub-item{
     text-align: center;
+}
+.facebook-icon, .instagram-icon {
+    display: none;
+}
+
+/* Hiển thị các biểu tượng Facebook và Instagram khi hover vào phần tử cha */
+.inner-item:hover .facebook-icon, .inner-item:hover .instagram-icon {
+    display: block;
+    color: #FB5849;
+}
+
+/* Vị trí và kiểu hiển thị của các biểu tượng */
+.facebook-icon, .instagram-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
 .section-four .inner-sub-item .inner-desc{
     font-family: Be Vietnam Pro;
@@ -393,7 +413,7 @@ a.reser {
 .section-five .inner-content .inner-list .inner-item{
     width: 255px;
     height: 160px;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 0px 0px 0px;
     background: #FFFFFF;
     margin-left: 142px;
     margin-right: -89px;
@@ -423,8 +443,11 @@ a.reser {
     color: #2A2A2A;
 }
 .section-five .inner-content .inner-list .inner-item .inner-img img{
-    width: 70px;
-    height: 70px;
+    width: 18.86px;
+    height: 18.86px;
+    background: #FFFFFF;
+    border: 2px none;
+    position: absolute;
     top: 25px;
     left: 25px;
 }
@@ -588,36 +611,3 @@ a.reser {
 .section-seven .inner-wrap .inner-social .inner-item:hover {
     filter: grayscale(100%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
