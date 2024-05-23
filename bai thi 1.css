@@ -1,3 +1,29 @@
+
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'be vietnam pro';
+    src: url('fonts/BeVietnamPro-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'be vietnam pro regular';
+    src: url('fonts/BeVietnamPro-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'open sans';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'source sans pro';
+    src: url('fonts/SourceSans3-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'dancing script';
+    src: url('fonts/DancingScript-Regular.ttf') format('truetype');
+}
+
 /* header */
 .header {
     box-shadow: 0px 0px 10px 0px #00000026;
@@ -73,7 +99,7 @@ a.reser {
 }
 .section-one .inner-desc .inner-title{
     font-size: 54px;
-    font-weight: 700;
+    font-weight: 70;
     font-family: Dancing Script;
     color: #FFFFFF;
     margin-bottom: 10px;
@@ -86,6 +112,7 @@ a.reser {
     margin-bottom: 30px;
 }
 .section-one .inner-desc .button{
+    font-weight: 600;
     width: 183px;
     height: 43px;
     background: #FFFFFF;
@@ -177,9 +204,9 @@ a.reser {
     color: #FB5849;
 }
 .section-three .inner-sub-title{
-    font-family: Source Sans Pro;
+    font-family: be vietnam pro;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 900;
     color: #2A2A2A;
     margin-top: 25px;
     margin-bottom: 30px;
@@ -385,7 +412,7 @@ a.reser {
     box-sizing: border-box;
     margin-left: 10px;
     margin-right: 10px;
-    font-family: Be Vietnam;
+    font-family: Be Vietnam pro regular;
     font-size: 16px;
     font-weight: 400;
     color: #2A2A2A;
@@ -395,13 +422,18 @@ a.reser {
     width: 487px;
     height: 150px;
     margin-left: 8px;
+    font-family: Be Vietnam pro regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2A2A2A;
+    border: 1px solid #DDDDDD;
 }
 .section-five .inner-right-content .button{
     width: 489px;
     height: 43.5px;
     background: #FB5849;
     border-radius: 3px;
-    font-family: Be Vietnam Pro;
+    font-family: Be Vietnam Pro regular;
     font-size: 20px;
     font-weight: 600;
     color: #FFFFFF;
@@ -495,6 +527,7 @@ a.reser {
     width: 86px;
     height: 89.5px;
     text-align: center;
+    cursor: pointer;
 }
 .section-six .inner-list {
     display: flex;
