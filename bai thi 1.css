@@ -445,7 +445,7 @@ a.reser {
 .section-five .inner-content .inner-list .inner-item{
     width: 255px;
     height: 160px;
-    border-radius: 5px 0px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
     background: #FFFFFF;
     margin-left: 142px;
     margin-right: -89px;
@@ -466,6 +466,14 @@ a.reser {
     font-family: Be Vietnam Pro;
     font-size: 20px;
     font-weight: 700;
+    color: #212529;
+}
+.section-five .inner-content .inner-list .inner-item .inner-icon .inner-desc{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
     color: #212529;
 }
 .section-five .inner-content .inner-list .inner-item .inner-img img{
