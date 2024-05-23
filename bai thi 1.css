@@ -468,12 +468,6 @@ a.reser {
     font-weight: 700;
     color: #212529;
 }
-.section-five .inner-content .inner-list .inner-item .inner-icon .inner-desc{
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 400;
-    color: #2A2A2A;
-}
 .section-five .inner-content .inner-list .inner-item .inner-img img{
     width: 18.86px;
     height: 18.86px;
@@ -528,6 +522,17 @@ a.reser {
     height: 89.5px;
     text-align: center;
     cursor: pointer;
+}
+.section-six .inner-icon .inner-item .inner-desc{
+    color: #2A2A2A;
+    font-family: Be Vietnam Pro regular;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    text-align: center;
+}
+.section-six .inner-icon .inner-item .inner-desc .active{
+    color: #FB5849;
 }
 .section-six .inner-list {
     display: flex;
