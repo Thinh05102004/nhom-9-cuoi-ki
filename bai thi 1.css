@@ -30,6 +30,12 @@
     padding: 10px 10px;
     background: #FFFFFF;
     margin-bottom: 20px;
+
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 .header .inner-wrap {
     display: flex;
@@ -68,6 +74,9 @@
 a.reser {
     margin-right: 145px;
 }
+.header .inner-menu ul li a.active{
+    color: #FB5849;
+}
  .header .inner-menu ul li a:hover{
     color: #FB5849;
 }
@@ -76,7 +85,7 @@ a.reser {
 .section-one{
     width: 1503.2px;
     height: 97.6px;
-    margin-bottom: 500px;
+    margin-bottom: 650px;
 }
 .section-one .inner-wrap{
     display: flex;
@@ -99,7 +108,7 @@ a.reser {
 }
 .section-one .inner-desc .inner-title{
     font-size: 54px;
-    font-weight: 70;
+    font-weight: 700;
     font-family: Dancing Script;
     color: #FFFFFF;
     margin-bottom: 10px;
@@ -112,7 +121,6 @@ a.reser {
     margin-bottom: 30px;
 }
 .section-one .inner-desc .button{
-    font-weight: 600;
     width: 183px;
     height: 43px;
     background: #FFFFFF;
@@ -128,7 +136,7 @@ a.reser {
     width: 1503.2px;
     height: 97.6px;
     background: #FFFFFF;
-    margin-bottom: 500px;
+    margin-bottom: 600px;
 }
 .section-two .inner-wrap{
     padding-left: 164px;
