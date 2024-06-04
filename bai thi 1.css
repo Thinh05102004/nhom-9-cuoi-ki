@@ -195,163 +195,206 @@ a.reser {
 }
 /* end section-two */
 /* section-three */
-.section-three{
-    width: 1503.2px;
-    height: 97.6px;
-    background: #FFFFFF;
-    margin-bottom: 500px;
-}
-.section-three .inner-content{
-    padding-left: 164px;
-    padding-right: 164px;
-}
-.section-three .inner-title span{
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: 500;
-    color: #FB5849;
-}
-.section-three .inner-sub-title{
-    font-family: be vietnam pro;
-    font-size: 30px;
-    font-weight: 900;
-    color: #2A2A2A;
-    margin-top: 25px;
-    margin-bottom: 30px;
-}
-.section-three .inner-img{
-    display: flex;
-    justify-content: space-between;
-}
-.section-three .inner-item img{
-   width: 284px;
-   height: 400px;
-   border-radius: 4px;
-}
-.section-three .inner-item .inner-desc{
-    width: 70px;
-    height: 70px;
-    background: #FB5849;
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-    color: #FFFFFF;
-    border-radius: 3px;
-}
-.section-three .inner-item{
-    position: relative;
-    overflow: hidden;
-}
+    .section-three{
+        width: 1503.2px;
+        height: 97.6px;
+        background: #FFFFFF;
+        margin-bottom: 500px;
+    }
+    .section-three .inner-content{
+        padding-left: 164px;
+        padding-right: 164px;
+    }
+    .section-three .inner-title span{
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+        color: #FB5849;
+    }
+    .section-three .inner-sub-title{
+        font-family: Source Sans Pro;
+        font-size: 30px;
+        font-weight: 400;
+        color: #2A2A2A;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .section-three .inner-img{
+        display: flex;
+        justify-content: space-between;
+    }
+    .section-three .inner-item img{
+       width: 284px;
+       height: 400px;
+       border-radius: 4px;
+    }
+    .section-three .inner-item .inner-desc{
+        width: 70px;
+        height: 70px;
+        background: #FB5849;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        color: #FFFFFF;
+        border-radius: 3px;
+    }
+    .section-three .inner-item{
+        position: relative;
+    }
+    .section-three .inner-desc{
+        position: absolute;
+        top: 0px;
+    }
+    .section-three .inner-item .inner-sub-content{
+        width: 284px;
+        height: 67px;
+        background: #FB5849;
+        position: absolute;
+        bottom: 0;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        color: #FFFFFF;
+    
+        overflow: hidden; 
+        white-space: nowrap; 
+        text-overflow: ellipsis;
+    }
+    .section-three .inner-item:hover{
+        transform: scale(0.9);
+        transition: 1s;
+        cursor: pointer;
+    }
+    .section-three .inner-item:hover .inner-sub-content{
+        height: 220px;
+        transition: 1s;
+    
+        overflow: visible; 
+        white-space: normal;
+    }
+    .section-three .inner-item:hover p{
+        transform: translateY(0);
+        transition: 1s;
+        bottom: 130px;
+    }
+    .section-three .inner-item .inner-sub-content p{
+        position: absolute;
+        overflow: hidden;
+        transform: translateY(100%);
+        transition: 1s;
+    }
+    /* end section-three */
+    /* section-four */
+    .section-four {
+        width: 1503.2px;
+        height: auto;
+        background: #FFFFFF;
+        margin-bottom: 500px;
+        padding: 50px 0;
+    }
+    
+    .section-four .inner-wrap .inner-content {
+        text-align: center;
+    }
+    
+    .section-four .inner-content .inner-title {
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+        color: #FB5849;
+    }
+    
+    .section-four .inner-content .inner-sub-title {
+        font-family: Be Vietnam Pro;
+        font-size: 30px;
+        font-weight: 900;
+        color: #2A2A2A;
+    }
+    
+    .section-four .inner-item .inner-imgg img {
+        width: 338px;
+        height: 320.16px;
+    }
+    
+    .section-four .inner-item {
+        width: 350px;
+        height: 420.16px;
+        border-radius: 3px 0px 0px 0px;
+        border: 1px solid #AFAFAF;
+        padding-left: 12px;
+        position: relative;
+        transition: transform 0.5s ease-in-out;
+    }
+    .section-four .inner-list {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .section-four .inner-item .inner-sub-item {
+        text-align: center;
+    }
+    
+    .section-four .inner-item .inner-sub-item .inner-sub-box {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .section-four .inner-item .inner-sub-item .inner-desc {
+        font-family: Be Vietnam Pro;
+        font-size: 20px;
+        font-weight: 700;
+        color: #2A2A2A;
+    }
+    
+    .section-four .inner-item .inner-sub-item .inner-sub-desc {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        color: #2A2A2A;
+    }
+    
+    .section-four .inner-list .inner-sub-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        z-index: 10;
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    }
+    
+    .inner-sub-box img .character {
+        display: none;
+    }
+    
+    .section-four .inner-list .inner-sub-box .character {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .inner-item.bg1:hover .inner-sub-box,
+    .inner-item.bg2:hover .inner-sub-box,
+    .inner-item.bg3:hover .inner-sub-box {
+        opacity: 1;
+        transform: scale(1.1) translateY(-10px);
+    }
+    
+    .inner-item:hover .inner-sub-box img.character {
+        display: block;
+    }
+    
+    .inner-item:hover {
+        transform: scale(1.1);
+    }
+    /* end-section-four */
 
-.section-three .inner-desc{
-    position: absolute;
-    top: 0px;
-}
-.section-three .inner-item .inner-sub-content{
-    width: 284px;
-    height: 70px;
-    background: #FB5849;
-    position: absolute;
-    bottom: 0;
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 700;
-    color: #FFFFFF;
-    text-align: center;
-}
-.section-three .inner-item:hover{
-    transform: scale(0.9);
-    transition: 1s;
-    cursor: pointer;
-}
-.section-three .inner-item:hover .inner-sub-content{
-    height: 220px;
-    transition: 1s;    
-}
-.section-three .inner-item:hover p{
-    transform: translateY(0);
-    transition: 1s;
-    bottom: 130px;
-}
-.section-three .inner-item .inner-sub-content p{
-    position: absolute;
-    overflow: hidden;
-    transform: translateY(100%);
-    transition: 1s;
-}
-/* end section-three */
-.section-four{
-    width: 1503.2px;
-    height: 97.6px;
-    background: #FFFFFF;
-    margin-bottom: 500px;
-}
-.section-four .inner-wrap .inner-content{
-    text-align: center;
-}
-.section-four .inner-content .inner-title{
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: 500;
-    color: #FB5849;
-}
-.section-four .inner-content .inner-sub-title{
-    font-family: Be Vietnam Pro;
-    font-size: 30px;
-    font-weight: 900;
-    color: #2A2A2A;
-}
-.section-four .inner-item img{
-    width: 338px;
-    height: 320.16px;
-}
-.section-four .inner-item{
-    width: 350px;
-    height: 420.16px;
-    border-radius: 3px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
-    border: 1px solid #AFAFAF;
-    padding-left: 12px;
-}
-.section-four .inner-list{
-    display: flex;
-    justify-content: space-evenly;
-}
-.section-four .inner-item .inner-sub-item{
-    text-align: center;
-}
-.facebook-icon, .instagram-icon {
-    display: none;
-}
-
-/* Hiển thị các biểu tượng Facebook và Instagram khi hover vào phần tử cha */
-.inner-item:hover .facebook-icon, .inner-item:hover .instagram-icon {
-    display: block;
-    color: #FB5849;
-}
-
-/* Vị trí và kiểu hiển thị của các biểu tượng */
-.facebook-icon, .instagram-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-.section-four .inner-sub-item .inner-desc{
-    font-family: Be Vietnam Pro;
-    font-size: 20px;
-    font-weight: 700;
-    color: #2A2A2A;
-}
-.section-four .inner-sub-item .inner-sub-desc{
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 400;
-    color: #2A2A2A;
-}
-/* end section-four */
 /* section-five */
 .section-five .inner-wrap img{
     width: 1503.2px;
