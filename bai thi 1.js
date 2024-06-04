@@ -1,5 +1,4 @@
-
-        document.getElementById('reservationForm').addEventListener('submit', function(event) {
+ document.getElementById('reservationForm').addEventListener('submit', function(event) {
             event.preventDefault();
 
             // Lấy giá trị từ các ô nhập liệu
